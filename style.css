@@ -16,6 +16,10 @@ main {
 }
 .flex-container {
     display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.navbar .flex-container {
     justify-content: space-between;
 }
 .nav-container {
@@ -72,8 +76,15 @@ h2 {
     padding: 60px 0 40px;
 }
 .game-item img {
-    width: 100%;
+    display: block;
+    width: 80%;
+    margin: auto;
 }
 .game-item {
-    width: 22.5%;
+    width: 25%;
+    margin-bottom: 40px;
+}
+.game-item p {
+    text-align: center;
+    margin-top: 12px;
 }
