@@ -1,4 +1,79 @@
 * {
+    box-sizing: border-box;
     padding: 0; 
     margin: 0;
+}
+body {
+    color: #505050;
+    font-family:'Segoe UI', 'Helvetica', Verdana, sans-serif
+}
+main {
+    margin-bottom: 60px;
+}
+.row {
+    width: 980px;
+    margin: 0 auto;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item {
+    font-size: 1.125em;
+    padding: 24px;
+}
+.navbar a {
+    color: #505050;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.navbar a:hover {
+    color: #1D8AC2;
+}
+.logo {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 40px;
+}
+.logo-title {
+    display: inline-block;
+    padding-left: 8px;
+}
+
+/* Main Body*/
+
+h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.hero p {
+    color: white;
+}
+.hero {
+    background: url('images/board-games-bg.jpg'), rgba(0,0,0,0.5);
+    background-size: cover;
+}
+.hero .row {
+    padding: 30vh 0;
+}
+
+h2 {
+    font-weight: 500;
+    padding: 60px 0 40px;
+}
+.game-item img {
+    width: 100%;
+}
+.game-item {
+    width: 22.5%;
 }
